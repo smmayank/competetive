@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.booking.msaxena.playground.java.App",
+            "projectName": "java"
+        }
+    ]
+}

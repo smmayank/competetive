@@ -1,4 +1,4 @@
-package com.booking.msaxena.playground.java.jumpingonclouds;
+package com.github.msaxena.hackerrank.jumpingonclouds;
 
 import static org.junit.Assert.assertEquals;
 

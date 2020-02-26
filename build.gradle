@@ -30,5 +30,5 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'com.booking.msaxena.playground.java.App'
+    mainClassName = 'com.github.msaxena.hackerrank.App'
 }

@@ -1,4 +1,4 @@
-package com.booking.msaxena.playground.java.jumpingonclouds;
+package com.github.msaxena.hackerrank.jumpingonclouds;
 
 public class JumpingOnClouds {
 

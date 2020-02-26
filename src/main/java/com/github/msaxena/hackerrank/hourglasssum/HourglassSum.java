@@ -1,6 +1,6 @@
-package com.booking.msaxena.playground.java.hourglasssum;
+package com.github.msaxena.hackerrank.hourglasssum;
 
-import com.booking.msaxena.playground.java.util.RangeUtil;
+import com.github.msaxena.hackerrank.util.RangeUtil;
 
 public class HourglassSum {
 
@@ -11,15 +11,15 @@ public class HourglassSum {
     };
 
     private boolean isValid(int[][] arr, int row, int col) {
-        return RangeUtil.isInbetween(row, 0, arr.length - 1)
-            && RangeUtil.isInbetween(col, 0, arr[row].length - 1);
+        return RangeUtil.isInBetween(row, 0, arr.length - 1)
+            && RangeUtil.isInBetween(col, 0, arr[row].length - 1);
     }
 
     private int getHourglassSum(int[][] arr, int row, int col) {
         int sum = 0;
-        for (int a = 0; a < summer.length; a++) {
-            if (isValid(arr, row + summer[a][0], col + summer[a][1])) {
-                sum += arr[row + summer[a][0]][col + summer[a][1]];
+        for (int[] ints : summer) {
+            if (isValid(arr, row + ints[0], col + ints[1])) {
+                sum += arr[row + ints[0]][col + ints[1]];
             } else {
                 return 0;
             }

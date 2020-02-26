@@ -1,4 +1,4 @@
-package com.booking.msaxena.playground.java.rotleft;
+package com.github.msaxena.hackerrank.rotleft;
 
 public final class RotLeft {
 

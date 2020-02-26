@@ -1,4 +1,4 @@
-package com.booking.msaxena.playground.java.hourglasssum;
+package com.github.msaxena.hackerrank.hourglasssum;
 
 import static org.junit.Assert.assertEquals;
 

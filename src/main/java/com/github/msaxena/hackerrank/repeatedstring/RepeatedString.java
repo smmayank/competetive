@@ -1,4 +1,4 @@
-package com.booking.msaxena.playground.java.repeatedstring;
+package com.github.msaxena.hackerrank.repeatedstring;
 
 public class RepeatedString {
 

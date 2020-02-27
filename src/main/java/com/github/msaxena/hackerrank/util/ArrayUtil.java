@@ -1,5 +1,7 @@
 package com.github.msaxena.hackerrank.util;
 
+import static com.github.msaxena.hackerrank.util.RangeUtil.isInBetween;
+
 public class ArrayUtil {
 
     /**
@@ -12,7 +14,7 @@ public class ArrayUtil {
      * @return value or default value
      */
     public static <T> T getVal(int index, T[] array, T defaultValue) {
-        return array != null && RangeUtil.isInBetween(index, 0, array.length - 1)
+        return array != null && isInBetween(index, 0, array.length - 1)
             ? array[index]
             : defaultValue;
     }
@@ -26,7 +28,7 @@ public class ArrayUtil {
      * @return value or default value
      */
     public static int getVal(int index, int[] array, int defaultValue) {
-        return array != null && RangeUtil.isInBetween(index, 0, array.length - 1)
+        return array != null && isInBetween(index, 0, array.length - 1)
             ? array[index]
             : defaultValue;
     }

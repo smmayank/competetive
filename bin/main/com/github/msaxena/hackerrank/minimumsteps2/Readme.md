@@ -1,0 +1,1 @@
+[Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs[]=interview-preparation-kit&playlist_slugs[]=arays)

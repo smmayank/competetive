@@ -1,7 +1,5 @@
 package com.github.msaxena.hackerrank.minimumsteps2;
 
-import jdk.nashorn.internal.runtime.logging.Logger;
-
 import static com.github.msaxena.hackerrank.util.ArrayUtil.getVal;
 
 public class MinimumSteps2 {
